@@ -41,3 +41,27 @@ footer {
     background: rgba(0,0,0,0.5);
     padding: 10px;
 }
+/* Columns using Flexbox */
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.column {
+    flex: 1;
+    background: rgba(255,255,255,0.2);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.column:hover {
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.5);
+}
