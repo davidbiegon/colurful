@@ -1,1 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, red, orange, yellow, green, blue);
+    color: white;
+}
 
+header {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+h1 {
+    color: cyan;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+}
